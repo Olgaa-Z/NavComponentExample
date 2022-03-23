@@ -23,6 +23,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         gotodua.setOnClickListener {
+//            Nav Controller : source untuk berpindah ke fragment ke dua (id yg dipanggil adalah id dari Navigation graph --> folder res> navigation >nav_component.xml
             Navigation.findNavController(view).navigate(R.id.navigasike_fragmentdua)
         }
 
